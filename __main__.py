@@ -6,6 +6,8 @@ Integrantes:
     Martin Estrada
 
 """
+from cadena_a_binario import cadena_a_binario
+
 def main():
     print("============[Conversiones]============")
     print("""
@@ -17,7 +19,8 @@ Seleccione una opcion
 """)
     eleccion = int(input("Seleccion: "))
     if eleccion == 1:
-        pass
+        cadena=input("Ingrese el texto a convertir: ")
+        print(f"texto inicial: {cadena} conversión: {cadena_a_binario(cadena)}")
     elif eleccion == 2:
         pass
     elif eleccion == 3:
