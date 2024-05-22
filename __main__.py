@@ -7,6 +7,7 @@ Integrantes:
 
 """
 
+from cadena_a_binario import cadena_a_binario
 from binario_caracter import fromBinToChar
 
 def main():
@@ -20,7 +21,8 @@ Seleccione una opcion
 """)
     eleccion = int(input("Seleccion: "))
     if eleccion == 1:
-        pass
+        cadena=input("Ingrese el texto a convertir: ")
+        print(f"texto inicial: {cadena} conversión: {cadena_a_binario(cadena)}")
     elif eleccion == 2:
         binarios = input("Ingrese los binarios (Si es mas de uno con un espacio por cada caracter): ")
         print(f"Binario inicial: {binarios} Conversion: {fromBinToChar(binarios)}")
