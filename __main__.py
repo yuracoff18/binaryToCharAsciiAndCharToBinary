@@ -6,6 +6,9 @@ Integrantes:
     Martin Estrada
 
 """
+
+from binario_caracter import fromBinToChar
+
 def main():
     print("============[Conversiones]============")
     print("""
@@ -19,7 +22,8 @@ Seleccione una opcion
     if eleccion == 1:
         pass
     elif eleccion == 2:
-        pass
+        binarios = input("Ingrese los binarios (Si es mas de uno con un espacio por cada caracter): ")
+        print(f"Binario inicial: {binarios} Conversion: {fromBinToChar(binarios)}")
     elif eleccion == 3:
         return 0
     else:
