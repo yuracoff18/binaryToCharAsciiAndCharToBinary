@@ -24,10 +24,20 @@ git add .
 git commit -m "Binario a cadena"  
 git push Origin Modulo_binario_a_cadena  
 
+### Creación módulo Cadena a Binario
+
+**Descripción**
+Se creó un módulo aparte llamado cadena_a_binario en el cual se ingresa una cadena de caracteres como entrada y lo convierte en binario cada caracter dejando un espacio de distinción de cada uno.
+
+**Comandos usados**
+git add .  
+git commit -m "cadena_a_binario"  
+git push origin cadena_a_binario
+
 #### Integrantes
 
 - Yura Hernandez  
 Usuario: yuracoff18
 
 - Martin Estrada  
-Usuario: 
+Usuario: martin0731
